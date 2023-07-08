@@ -1,0 +1,45 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg-blue: #1524ac;
+    --bg-light: #ffffff;
+    --text-blue2: #3748dd;
+    --color-light: #FFFF
+    --color-dark: #080808
+}
+
+
+body{
+    background-color: var(--bg-blue);
+}
+
+.logo {
+    max-width: 30px;
+}
+
+.conheca {
+    min-width: 60vh;
+}
+
+.cadastro {
+    background-color: var(--bg-light);
+    max-width: 100%;
+}
+
+.cadastrar {
+    background-color: #1524ac;
+}
+.footer {
+    background-color: rgb(223, 220, 220);
+    height: 13vh;
+    text-align: center;
+}
+
+.icon {
+    max-width: 5vh;
+    border-radius: 5%;
+    margin: 5px;
+}

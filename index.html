@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+  <Header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #fff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./Images/credit-card-solid.svg" alt="Logo" class="logo d-inline-block align-text-top">
+          Fined
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#conheca">Conheca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cadastro">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#redes">Nossas Redes</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </Header>
+  <section class="container mt-5 conheca" id="conheca">
+    <div class="row d-flex justify-contect-center align-items-center">
+      <div class="col-lg-6 ">
+        <h2 class="text-light mb-3">Fined Seu educador financeiro</h2>
+        <h4 class="text-light mb-4">Aprenda a poupar seu dinheiro com a Fined</h4>
+        <button type="button" class="btn btn-outline-light btn-sm">Mais informações</button>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="./Images/E-Wallet-rafiki.svg" alt="" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  
+  <div class="container-fluid justify-contect-center align-items-center cadastro" id="cadastro">
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <img src="./Images/pexels-tima-miroshnichenko-5198239.jpg" alt="" class=" float-start img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-ligh my-3">Faça seu cadastro e inicie agora</h2>
+        <form class="row g-3 needs-validation">
+          <div class="col-md-3">
+            <label for="validationCustom01" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Seu Nome" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom02" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Seu Nome" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustomUsername" class="form-label">Usuário</label>
+            <div class="input-group has-validation">
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                required>
+              <div class="invalid-feedback">
+                Por favor digite o Usuário.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom03" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Por favor digite uma cidade válida.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Por favor digite um Endereço válido.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Estado</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Acre</option>
+              <option>Alagoas</option>
+              <option>Amapá</option>
+              <option>Amazonas</option>
+              <option>Bahia</option>
+              <option>Ceará</option>
+              <option>Espírito Santo</option>
+              <option>Goiás</option>
+              <option>Maranhão</option>
+              <option>Mato Grosso</option>
+              <option>Mato Grosso do Sul</option>
+              <option>Minas Gerais</option>
+              <option>Pará</option>
+              <option>Paraíba</option>
+              <option>Paraná</option>
+              <option>Pernambuco</option>
+              <option>Piauí</option>
+              <option>Rio de Janeiro</option>
+              <option>Rio Grande do Norte</option>
+              <option>Rio Grande do Sul</option>
+              <option>Rondônia</option>
+              <option>Roraima</option>
+              <option>Santa Catarina</option>
+              <option>São Paulo</option>
+              <option>Sergipe</option>
+              <option>Tocantins</option>
+              <option>Distrito Federeal</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor insira um Estado.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Por favor insira um CEP válido.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Li e Concordo com os termos e condições
+              </label>
+              <div class="invalid-feedback">
+                Você precisa concordar para cadastrar.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-outline-primary btn-sm Cadastrar">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer" id="redes">
+    <h5 class="text-dark">Todos os direitos reservados</h5>
+    <a href="#">
+      <img src="./Images/facebook.svg" alt="Icone facebook" class="icon">
+    </a>
+    <a href="#">
+      <img src="./Images/instagram.svg" alt="Icone Instagram" class="icon">
+    </a>
+    <a href="#">
+      <img src="./Images/whatsapp.svg" alt="Icone Whatsapp" class="icon">
+    </a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
